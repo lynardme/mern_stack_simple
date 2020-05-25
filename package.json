@@ -1,0 +1,28 @@
+{
+  "name": "mern_stack_simple",
+  "version": "1.0.0",
+  "description": "shopping list using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynardme/mern_stack_simple.git"
+  },
+  "author": "Lynard Salingujay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lynardme/mern_stack_simple/issues"
+  },
+  "homepage": "https://github.com/lynardme/mern_stack_simple#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
